@@ -67,7 +67,6 @@ npx skills add <owner>/<skill-name>
 | 人物 | 领域 | 安装 |
 |------|------|------|
 | [费曼](https://github.com/Panmax/feynman-skill) | 第一性原理学习/化繁为简/科学直觉 | `npx skills add Panmax/feynman-skill` |
-| [费曼](https://github.com/alchaincyf/feynman-skill) | 学习/教学/科学思维 | `npx skills add alchaincyf/feynman-skill` |
 | [爱因斯坦](https://github.com/Panmax/einstein-skill) | 想象力/思维实验/相对论思维 | `npx skills add Panmax/einstein-skill` |
 | [达尔文](https://github.com/Panmax/darwin-skill) | 进化论/观察/反确认偏误 | `npx skills add Panmax/darwin-skill` |
 | [牛顿](https://github.com/Panmax/newton-skill) | 第一性原理/数学思维/系统 | `npx skills add Panmax/newton-skill` |
