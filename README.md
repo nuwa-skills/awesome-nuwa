@@ -63,6 +63,7 @@ npx skills add <owner>/<skill-name>
 | 人物 | 领域 | 安装 |
 |------|------|------|
 | [费曼](https://github.com/Panmax/feynman-skill) | 第一性原理学习/化繁为简/科学直觉 | `npx skills add Panmax/feynman-skill` |
+| [费曼](https://github.com/alchaincyf/feynman-skill) | 学习/教学/科学思维 | `npx skills add alchaincyf/feynman-skill` |
 | [爱因斯坦](https://github.com/Panmax/einstein-skill) | 想象力/思维实验/相对论思维 | `npx skills add Panmax/einstein-skill` |
 | [达尔文](https://github.com/Panmax/darwin-skill) | 进化论/观察/反确认偏误 | `npx skills add Panmax/darwin-skill` |
 | [牛顿](https://github.com/Panmax/newton-skill) | 第一性原理/数学思维/系统 | `npx skills add Panmax/newton-skill` |
@@ -131,6 +132,7 @@ npx skills add <owner>/<skill-name>
 | [约翰·博格](https://github.com/Panmax/bogle-skill) | 指数基金/低成本/长期持有 | `npx skills add Panmax/bogle-skill` |
 | [彼得·蒂尔](https://github.com/Panmax/thiel-skill) | 从0到1/垄断/逆向思考 | `npx skills add Panmax/thiel-skill` |
 | [本杰明·格雷厄姆](https://github.com/Panmax/grahamben-skill) | 价值投资之父/安全边际/市场先生 | `npx skills add Panmax/grahamben-skill` |
+| [芒格](https://github.com/alchaincyf/munger-skill) | 投资/认知偏误/逆向思考 | `npx skills add alchaincyf/munger-skill` |
 
 ## 科技与创新
 
@@ -140,6 +142,8 @@ npx skills add <owner>/<skill-name>
 | [凯文·凯利](https://github.com/Panmax/kevinkelly-skill) | 未来趋势/失控/必然 | `npx skills add Panmax/kevinkelly-skill` |
 | [林纳斯·托瓦兹](https://github.com/Panmax/torvalds-skill) | 开源/工程美学/务实 | `npx skills add Panmax/torvalds-skill` |
 | [吴军](https://github.com/Panmax/wujun-skill) | 文明之光/信息论思维/格局/见识 | `npx skills add Panmax/wujun-skill` |
+| [乔布斯](https://github.com/alchaincyf/steve-jobs-skill) | 产品/设计/战略 | `npx skills add alchaincyf/steve-jobs-skill` |
+| [马斯克](https://github.com/alchaincyf/elon-musk-skill) | 工程/成本/第一性原理 | `npx skills add alchaincyf/elon-musk-skill` |
 
 ## 中国文学家
 
@@ -216,6 +220,7 @@ npx skills add <owner>/<skill-name>
 | [蒙特梭利](https://github.com/Panmax/montessori-skill) | 儿童教育/自主学习/环境设计 | `npx skills add Panmax/montessori-skill` |
 | [杜威](https://github.com/Panmax/dewey-skill) | 实用主义教育/做中学/民主 | `npx skills add Panmax/dewey-skill` |
 | [陶行知](https://github.com/Panmax/taoxingzhi-skill) | 生活教育/教学做合一/乡村 | `npx skills add Panmax/taoxingzhi-skill` |
+| [张雪峰](https://github.com/alchaincyf/zhangxuefeng-skill) | 教育/职业规划/阶层流动 | `npx skills add alchaincyf/zhangxuefeng-skill` |
 
 ## 经济学家
 
@@ -247,22 +252,8 @@ npx skills add <owner>/<skill-name>
 | [蒂姆·费里斯](https://github.com/Panmax/ferriss-skill) | 生活黑客/4小时/最优化 | `npx skills add Panmax/ferriss-skill` |
 | [詹姆斯·克利尔](https://github.com/Panmax/clear-skill) | 原子习惯/系统/复利 | `npx skills add Panmax/clear-skill` |
 | [格拉德威尔](https://github.com/Panmax/gladwell-skill) | 引爆点/异类/直觉 | `npx skills add Panmax/gladwell-skill` |
-
-## 第三方 Skill
-
-> 以下 Skill 由 [花叔](https://github.com/alchaincyf) 制作
-
-| 人物 | 领域 | 安装 |
-|------|------|------|
-| [乔布斯](https://github.com/alchaincyf/steve-jobs-skill) | 产品/设计/战略 | `npx skills add alchaincyf/steve-jobs-skill` |
-| [芒格](https://github.com/alchaincyf/munger-skill) | 投资/认知偏误/逆向思考 | `npx skills add alchaincyf/munger-skill` |
-| [马斯克](https://github.com/alchaincyf/elon-musk-skill) | 工程/成本/第一性原理 | `npx skills add alchaincyf/elon-musk-skill` |
 | [纳瓦尔](https://github.com/alchaincyf/naval-skill) | 财富/杠杆/人生哲学 | `npx skills add alchaincyf/naval-skill` |
-| [费曼](https://github.com/alchaincyf/feynman-skill) | 学习/教学/科学思维 | `npx skills add alchaincyf/feynman-skill` |
 | [塔勒布](https://github.com/alchaincyf/taleb-skill) | 风险/反脆弱/不确定性 | `npx skills add alchaincyf/taleb-skill` |
-| [张雪峰](https://github.com/alchaincyf/zhangxuefeng-skill) | 教育/职业规划/阶层流动 | `npx skills add alchaincyf/zhangxuefeng-skill` |
-
----
 
 ## 蒸馏你自己的 Skill
 
