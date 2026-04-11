@@ -57,6 +57,10 @@ npx skills add <owner>/<skill-name>
 | [叔本华](https://github.com/Panmax/schopenhauer-skill) | 意志/悲观主义/审美解脱 | `npx skills add Panmax/schopenhauer-skill` |
 | [蒙田](https://github.com/Panmax/montaigne-skill) | 随笔/自我认知/怀疑精神 | `npx skills add Panmax/montaigne-skill` |
 | [维特根斯坦](https://github.com/Panmax/wittgenstein-skill) | 语言哲学/逻辑/沉默 | `npx skills add Panmax/wittgenstein-skill` |
+| [赫拉克利特](https://github.com/Panmax/heraclitus-skill) | 万物流变/对立统一/逻各斯 | `npx skills add Panmax/heraclitus-skill` |
+| [福柯](https://github.com/Panmax/foucault-skill) | 权力/知识/话语分析 | `npx skills add Panmax/foucault-skill` |
+| [汉娜·阿伦特](https://github.com/Panmax/arendt-skill) | 平庸之恶/极权主义/政治判断力 | `npx skills add Panmax/arendt-skill` |
+| [西蒙娜·德·波伏娃](https://github.com/Panmax/beauvoir-skill) | 女性主义/存在主义/自由 | `npx skills add Panmax/beauvoir-skill` |
 
 ## 科学家
 
@@ -75,6 +79,10 @@ npx skills add <owner>/<skill-name>
 | [哥白尼](https://github.com/Panmax/copernicus-skill) | 范式革命/勇气/观察 | `npx skills add Panmax/copernicus-skill` |
 | [法拉第](https://github.com/Panmax/faraday-skill) | 实验精神/自学成才/直觉 | `npx skills add Panmax/faraday-skill` |
 | [达芬奇](https://github.com/Panmax/davinci-skill) | 跨学科创造力/观察方法/好奇心驱动 | `npx skills add Panmax/davinci-skill` |
+| [钱学森](https://github.com/Panmax/qianxuesen-skill) | 系统工程/跨学科/航天精神 | `npx skills add Panmax/qianxuesen-skill` |
+| [高德纳](https://github.com/Panmax/knuth-skill) | 计算机科学之美/极致严谨/文学化编程 | `npx skills add Panmax/knuth-skill` |
+| [卡尔·萨根](https://github.com/Panmax/sagan-skill) | 科学传播/宇宙视角/怀疑精神 | `npx skills add Panmax/sagan-skill` |
+| [杨振宁](https://github.com/Panmax/yangzhenning-skill) | 物理之美/科学品味/对称性 | `npx skills add Panmax/yangzhenning-skill` |
 
 ## 商业领袖
 
@@ -88,6 +96,8 @@ npx skills add <owner>/<skill-name>
 | [亨利·福特](https://github.com/Panmax/ford-skill) | 流水线/规模化/工资革命 | `npx skills add Panmax/ford-skill` |
 | [杰克·韦尔奇](https://github.com/Panmax/welch-skill) | 数一数二/活力曲线/变革 | `npx skills add Panmax/welch-skill` |
 | [稻盛和夫](https://github.com/Panmax/inamori-skill) | 经营哲学/利他主义/阿米巴管理 | `npx skills add Panmax/inamori-skill` |
+| [铃木敏文](https://github.com/Panmax/suzukitoshifumi-skill) | 7-Eleven/单品管理/假设验证 | `npx skills add Panmax/suzukitoshifumi-skill` |
+| [詹姆斯·韦伯](https://github.com/Panmax/webb-skill) | NASA管理/阿波罗计划/科学行政 | `npx skills add Panmax/webb-skill` |
 
 ## 当代中国企业家
 
@@ -144,6 +154,10 @@ npx skills add <owner>/<skill-name>
 | [吴军](https://github.com/Panmax/wujun-skill) | 文明之光/信息论思维/格局/见识 | `npx skills add Panmax/wujun-skill` |
 | [乔布斯](https://github.com/alchaincyf/steve-jobs-skill) | 产品/设计/战略 | `npx skills add alchaincyf/steve-jobs-skill` |
 | [马斯克](https://github.com/alchaincyf/elon-musk-skill) | 工程/成本/第一性原理 | `npx skills add alchaincyf/elon-musk-skill` |
+| [山姆·奥特曼](https://github.com/Panmax/altman-skill) | AI时代创业/指数思维/技术乐观主义 | `npx skills add Panmax/altman-skill` |
+| [里德·霍夫曼](https://github.com/Panmax/hoffman-skill) | 闪电式扩张/人脉网络/联盟思维 | `npx skills add Panmax/hoffman-skill` |
+| [本·霍洛维茨](https://github.com/Panmax/horowitz-skill) | 创业维艰/战时CEO/企业文化 | `npx skills add Panmax/horowitz-skill` |
+| [大前研一](https://github.com/Panmax/ohmae-skill) | 战略思维/无国界经济/问题解决法 | `npx skills add Panmax/ohmae-skill` |
 
 ## 中国文学家
 
@@ -164,6 +178,10 @@ npx skills add <owner>/<skill-name>
 | [奥威尔](https://github.com/Panmax/orwell-skill) | 政治写作/清晰/真相 | `npx skills add Panmax/orwell-skill` |
 | [托尔斯泰](https://github.com/Panmax/tolstoy-skill) | 人性/道德/史诗叙事 | `npx skills add Panmax/tolstoy-skill` |
 | [斯蒂芬·金](https://github.com/Panmax/stephenking-skill) | 写作/纪律/恐惧 | `npx skills add Panmax/stephenking-skill` |
+| [卡夫卡](https://github.com/Panmax/kafka-skill) | 荒诞/异化/现代性焦虑 | `npx skills add Panmax/kafka-skill` |
+| [博尔赫斯](https://github.com/Panmax/borges-skill) | 想象力/无限/迷宫思维 | `npx skills add Panmax/borges-skill` |
+| [太宰治](https://github.com/Panmax/dazai-skill) | 人间失格/边缘人视角/自我解剖 | `npx skills add Panmax/dazai-skill` |
+| [罗伯特·麦基](https://github.com/Panmax/mckee-skill) | 故事结构/编剧方法论/叙事原理 | `npx skills add Panmax/mckee-skill` |
 
 ## 心理学家
 
@@ -194,6 +212,10 @@ npx skills add <owner>/<skill-name>
 | [克劳塞维茨](https://github.com/Panmax/clausewitz-skill) | 战争论/摩擦/战争迷雾 | `npx skills add Panmax/clausewitz-skill` |
 | [马基雅维利](https://github.com/Panmax/machiavelli-skill) | 权力/现实主义/君主论 | `npx skills add Panmax/machiavelli-skill` |
 | [李小龙](https://github.com/Panmax/brucelee-skill) | 截拳道哲学/自我突破/去除冗余 | `npx skills add Panmax/brucelee-skill` |
+| [曹操](https://github.com/Panmax/caocao-skill) | 用人之道/权谋/乱世决策 | `npx skills add Panmax/caocao-skill` |
+| [刘邦](https://github.com/Panmax/liubang-skill) | 草根逆袭/驭人术/知人善任 | `npx skills add Panmax/liubang-skill` |
+| [张居正](https://github.com/Panmax/zhangjuzheng-skill) | 改革/执行力/制度设计 | `npx skills add Panmax/zhangjuzheng-skill` |
+| [俾斯麦](https://github.com/Panmax/bismarck-skill) | 铁血政策/现实政治/统一战略 | `npx skills add Panmax/bismarck-skill` |
 
 ## 艺术与设计
 
@@ -204,6 +226,7 @@ npx skills add <owner>/<skill-name>
 | [安藤忠雄](https://github.com/Panmax/ando-skill) | 建筑/极简/自学 | `npx skills add Panmax/ando-skill` |
 | [黑泽明](https://github.com/Panmax/kurosawa-skill) | 电影/叙事/完美主义 | `npx skills add Panmax/kurosawa-skill` |
 | [毕加索](https://github.com/Panmax/picasso-skill) | 创造力/风格变革/多产 | `npx skills add Panmax/picasso-skill` |
+| [铃木敏夫](https://github.com/Panmax/suzukitoshio-skill) | 吉卜力制作人/商业与艺术平衡 | `npx skills add Panmax/suzukitoshio-skill` |
 
 ## 体育
 
@@ -254,6 +277,7 @@ npx skills add <owner>/<skill-name>
 | [格拉德威尔](https://github.com/Panmax/gladwell-skill) | 引爆点/异类/直觉 | `npx skills add Panmax/gladwell-skill` |
 | [纳瓦尔](https://github.com/alchaincyf/naval-skill) | 财富/杠杆/人生哲学 | `npx skills add alchaincyf/naval-skill` |
 | [塔勒布](https://github.com/alchaincyf/taleb-skill) | 风险/反脆弱/不确定性 | `npx skills add alchaincyf/taleb-skill` |
+| [查理·罗斯](https://github.com/Panmax/charlierose-skill) | 深度访谈/提问的艺术/倾听 | `npx skills add Panmax/charlierose-skill` |
 
 ## 蒸馏你自己的 Skill
 
