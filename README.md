@@ -290,6 +290,12 @@ npx skills add alchaincyf/nuwa-skill
 
 ---
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Panmax/awesome-nuwa&type=Date)](https://star-history.com/#Panmax/awesome-nuwa&Date)
+
+---
+
 <div align="center">
 
 MIT License
