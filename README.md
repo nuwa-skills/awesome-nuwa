@@ -5,6 +5,8 @@
 > 用女娲蒸馏的人物思维框架合集
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Skills](https://img.shields.io/badge/Skills-165-blue)](#目录)
+[![Categories](https://img.shields.io/badge/Categories-18-green)](#目录)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
 [![Nuwa](https://img.shields.io/badge/Made%20with-女娲.skill-orange)](https://github.com/alchaincyf/nuwa-skill)
 
@@ -20,6 +22,31 @@
 ```bash
 npx skills add <owner>/<skill-name>
 ```
+
+---
+
+## 目录
+
+> 共 **165** 位人物，分布在 **18** 个领域。
+
+- [中国哲学家](#中国哲学家) `14`
+- [西方哲学家](#西方哲学家) `15`
+- [科学家](#科学家) `16`
+- [商业领袖](#商业领袖) `10`
+- [当代中国企业家](#当代中国企业家) `26`
+- [投资大师](#投资大师) `9`
+- [科技与创新](#科技与创新) `10`
+- [中国文学家](#中国文学家) `5`
+- [西方作家](#西方作家) `9`
+- [心理学家](#心理学家) `5`
+- [政治领袖](#政治领袖) `6`
+- [军事与战略](#军事与战略) `8`
+- [艺术与设计](#艺术与设计) `6`
+- [体育](#体育) `3`
+- [教育](#教育) `4`
+- [经济学家](#经济学家) `5`
+- [精神与智慧](#精神与智慧) `6`
+- [当代思想者](#当代思想者) `8`
 
 ---
 
