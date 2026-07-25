@@ -331,7 +331,7 @@ npx skills add alchaincyf/nuwa-skill
 
 ## Star History
 
-[![Star History Chart](./assets/star-history.png)](https://github.com/nuwa-skills/awesome-nuwa/stargazers)
+[![Star History Chart](https://nuwa-skills.github.io/awesome-nuwa/star-history.png)](https://github.com/nuwa-skills/awesome-nuwa/stargazers)
 
 ---
 

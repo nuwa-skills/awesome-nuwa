@@ -120,7 +120,7 @@ function renderChart(repository, stargazers) {
 }
 
 const repository = argument("--repo", process.env.GITHUB_REPOSITORY ?? "nuwa-skills/awesome-nuwa");
-const outputPath = argument("--output", "assets/star-history.png");
+const outputPath = argument("--output", "site/star-history.png");
 const inputPath = argument("--input");
 const stargazers = inputPath
   ? await readStargazers(inputPath)
