@@ -331,7 +331,7 @@ npx skills add alchaincyf/nuwa-skill
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=nuwa-skills/awesome-nuwa&type=Date)](https://star-history.com/#nuwa-skills/awesome-nuwa&Date)
+[![Star History Chart](./assets/star-history.svg)](https://github.com/nuwa-skills/awesome-nuwa/stargazers)
 
 ---
 
