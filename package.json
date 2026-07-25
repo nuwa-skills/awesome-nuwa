@@ -1,0 +1,11 @@
+{
+  "name": "awesome-nuwa-maintenance",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update-star-history": "node scripts/update-star-history.mjs"
+  },
+  "dependencies": {
+    "sharp": "0.35.3"
+  }
+}

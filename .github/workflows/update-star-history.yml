@@ -14,18 +14,21 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
+      - name: Install image renderer
+        run: npm ci
+
       - name: Generate chart
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node scripts/update-star-history.mjs
+        run: npm run update-star-history
 
       - name: Commit updated chart
         run: |
-          if git diff --quiet -- assets/star-history.svg; then
+          if git diff --quiet -- assets/star-history.png; then
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/star-history.svg
+          git add assets/star-history.png
           git commit -m "docs: update star history chart"
           git push

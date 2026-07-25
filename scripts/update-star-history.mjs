@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile } from "node:fs/promises";
 import path from "node:path";
+import sharp from "sharp";
 
 function argument(name, fallback) {
   const index = process.argv.indexOf(name);
@@ -119,12 +120,14 @@ function renderChart(repository, stargazers) {
 }
 
 const repository = argument("--repo", process.env.GITHUB_REPOSITORY ?? "nuwa-skills/awesome-nuwa");
-const outputPath = argument("--output", "assets/star-history.svg");
+const outputPath = argument("--output", "assets/star-history.png");
 const inputPath = argument("--input");
 const stargazers = inputPath
   ? await readStargazers(inputPath)
   : await fetchStargazers(repository, process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN);
 
 await mkdir(path.dirname(outputPath), { recursive: true });
-await writeFile(outputPath, renderChart(repository, stargazers));
+await sharp(Buffer.from(renderChart(repository, stargazers)))
+  .png({ adaptiveFiltering: true, compressionLevel: 9 })
+  .toFile(outputPath);
 console.log(`Generated ${outputPath} from ${stargazers.length} timestamped stars`);
