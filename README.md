@@ -5,13 +5,13 @@
 > 用女娲蒸馏的人物思维框架合集
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Skills](https://img.shields.io/badge/Skills-165-blue)](#目录)
+[![Skills](https://img.shields.io/badge/Skills-159-blue)](#目录)
 [![Categories](https://img.shields.io/badge/Categories-18-green)](#目录)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
+[![Agent Skills](https://img.shields.io/badge/Agent-Skills-blueviolet)](https://agentskills.io)
 [![Nuwa](https://img.shields.io/badge/Made%20with-女娲.skill-orange)](https://github.com/alchaincyf/nuwa-skill)
 
 每个 Skill 都是一个可安装的思维操作系统，不是语录合集。<br>
-安装后在 Claude Code 中以该人物的视角分析问题、审视决策、提供反馈。
+安装后可在支持 Agent Skills 的 AI 助手中，以该人物的视角分析问题、审视决策、提供反馈。
 
 </div>
 
@@ -23,19 +23,31 @@
 npx skills add <owner>/<skill-name>
 ```
 
+## 维护
+
+在 `awesome-nuwa` 与各 Skill 仓库位于同一父目录时，可运行：
+
+```bash
+ruby scripts/audit-skills.rb
+ruby scripts/modernize-skills.rb          # 仅预览
+ruby scripts/modernize-skills.rb --write  # 应用低风险规范升级
+```
+
+更新脚本会自动跳过存在未提交 `SKILL.md` 修改的仓库。
+
 ---
 
 ## 目录
 
-> 共 **165** 位人物，分布在 **18** 个领域。
+> 共 **159** 位人物，分布在 **18** 个领域。
 
 - [中国哲学家](#中国哲学家) `14`
 - [西方哲学家](#西方哲学家) `15`
 - [科学家](#科学家) `16`
 - [商业领袖](#商业领袖) `10`
 - [当代中国企业家](#当代中国企业家) `26`
-- [投资大师](#投资大师) `9`
-- [科技与创新](#科技与创新) `10`
+- [投资大师](#投资大师) `8`
+- [科技与创新](#科技与创新) `8`
 - [中国文学家](#中国文学家) `5`
 - [西方作家](#西方作家) `9`
 - [心理学家](#心理学家) `5`
@@ -43,10 +55,10 @@ npx skills add <owner>/<skill-name>
 - [军事与战略](#军事与战略) `8`
 - [艺术与设计](#艺术与设计) `6`
 - [体育](#体育) `3`
-- [教育](#教育) `4`
+- [教育](#教育) `3`
 - [经济学家](#经济学家) `5`
 - [精神与智慧](#精神与智慧) `6`
-- [当代思想者](#当代思想者) `8`
+- [当代思想者](#当代思想者) `6`
 
 ---
 
