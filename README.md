@@ -39,7 +39,7 @@ ruby scripts/modernize-skills.rb --write  # 应用低风险规范升级
 
 ## 目录
 
-> 共 **159** 位人物，分布在 **18** 个领域。
+> 共 **160** 位人物，分布在 **18** 个领域。
 
 - [中国哲学家](#中国哲学家) `14`
 - [西方哲学家](#西方哲学家) `15`
@@ -53,7 +53,7 @@ ruby scripts/modernize-skills.rb --write  # 应用低风险规范升级
 - [心理学家](#心理学家) `5`
 - [政治领袖](#政治领袖) `6`
 - [军事与战略](#军事与战略) `8`
-- [艺术与设计](#艺术与设计) `6`
+- [艺术与设计](#艺术与设计) `7`
 - [体育](#体育) `3`
 - [教育](#教育) `3`
 - [经济学家](#经济学家) `5`
@@ -261,6 +261,7 @@ ruby scripts/modernize-skills.rb --write  # 应用低风险规范升级
 |------|------|------|
 | [宫崎骏](https://github.com/nuwa-skills/miyazaki-skill) | 动画/自然/想象力 | `npx skills add nuwa-skills/miyazaki-skill` |
 | [贝多芬](https://github.com/nuwa-skills/beethoven-skill) | 苦难/创造力/超越 | `npx skills add nuwa-skills/beethoven-skill` |
+| [陈奕迅](https://github.com/ZMing2992/eason-skill) | 声音哲学/深情美学/时间的哲思 | `npx skills add ZMing2992/eason-skill` |
 | [安藤忠雄](https://github.com/nuwa-skills/ando-skill) | 建筑/极简/自学 | `npx skills add nuwa-skills/ando-skill` |
 | [黑泽明](https://github.com/nuwa-skills/kurosawa-skill) | 电影/叙事/完美主义 | `npx skills add nuwa-skills/kurosawa-skill` |
 | [毕加索](https://github.com/nuwa-skills/picasso-skill) | 创造力/风格变革/多产 | `npx skills add nuwa-skills/picasso-skill` |
