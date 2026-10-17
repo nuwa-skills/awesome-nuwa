@@ -3,7 +3,11 @@
 require "open3"
 require "yaml"
 
-WORKSPACE = File.expand_path("../..", __dir__)
+workspace_argument = ARGV.find { |argument| argument.start_with?("--workspace=") }
+ARGV.delete(workspace_argument) if workspace_argument
+WORKSPACE = File.expand_path(
+  workspace_argument ? workspace_argument.split("=", 2).last : File.expand_path("../..", __dir__)
+)
 WRITE = ARGV.delete("--write")
 INCLUDE_DIRTY = ARGV.delete("--include-dirty")
 DESCRIPTION_FROM_HEAD = ARGV.delete("--description-from-head")
@@ -23,6 +27,7 @@ FALLBACK_DESCRIPTIONS = {
 }.freeze
 
 TRIGGER_PATTERN = /(当用户|用户提到|适用|用于|用途|use when|when to use|trigger|activate)/i
+TOP_LEVEL_FRONTMATTER_KEYS = %w[license allowed-tools].freeze
 
 def git(repo, *args)
   stdout, status = Open3.capture2e("git", "-C", repo, *args)
@@ -127,22 +132,50 @@ def wrapped_description(description, width = 180)
   lines
 end
 
-def render(name, description, body)
+def yaml_block(hash)
+  YAML.dump(hash).sub(/\A---\s*\n/, "").rstrip
+end
+
+def preserved_frontmatter(frontmatter)
+  extras = frontmatter.reject { |key, _| %w[name description].include?(key) }
+  metadata = extras.delete("metadata")
+  metadata = metadata.is_a?(Hash) ? metadata.dup : {}
+  top_level = extras.select { |key, _| TOP_LEVEL_FRONTMATTER_KEYS.include?(key) }
+  extras.reject { |key, _| TOP_LEVEL_FRONTMATTER_KEYS.include?(key) }.each do |key, value|
+    metadata[key] = value unless metadata.key?(key)
+  end
+
+  blocks = []
+  blocks << yaml_block(top_level) unless top_level.empty?
+  blocks << yaml_block("metadata" => metadata) unless metadata.empty?
+  blocks.join("\n")
+end
+
+def render(frontmatter, name, description, body)
   description_lines = wrapped_description(description).map { |line| "  #{line}" }.join("\n")
+  preserved = preserved_frontmatter(frontmatter)
+  preserved = "\n#{preserved}" unless preserved.empty?
   <<~SKILL
     ---
     name: #{name}
     description: >-
-    #{description_lines}
+    #{description_lines}#{preserved}
     ---
 
     #{body.strip}
   SKILL
 end
 
+repos = organization_skill_repos
+if repos.empty?
+  warn "ERROR\t#{WORKSPACE} 下没有找到 nuwa-skills 的 *-skill 仓库"
+  warn "提示：把各 Skill 仓库克隆到该目录，或使用 --workspace=/path/to/parent"
+  exit 1
+end
+
 summary = Hash.new(0)
 
-organization_skill_repos.each do |repo|
+repos.each do |repo|
   repo_name = File.basename(repo)
   path = File.join(repo, "SKILL.md")
 
@@ -177,7 +210,7 @@ organization_skill_repos.each do |repo|
     name = normalized_name(repo_name, frontmatter["name"])
     description = normalized_description(repo_name, name, frontmatter["description"])
     body = resource_section(repo, portable_body(body))
-    updated = render(name, description, body)
+    updated = render(frontmatter, name, description, body)
   rescue StandardError => error
     warn "ERROR\t#{repo_name}\t#{error.message}"
     summary[:errors] += 1

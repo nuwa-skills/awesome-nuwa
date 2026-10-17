@@ -3,7 +3,11 @@
 require "open3"
 require "yaml"
 
-WORKSPACE = File.expand_path("../..", __dir__)
+workspace_argument = ARGV.find { |argument| argument.start_with?("--workspace=") }
+ARGV.delete(workspace_argument) if workspace_argument
+WORKSPACE = File.expand_path(
+  workspace_argument ? workspace_argument.split("=", 2).last : File.expand_path("../..", __dir__)
+)
 SKIP_DIRTY = ARGV.delete("--skip-dirty")
 skip_list_argument = ARGV.find { |argument| argument.start_with?("--skip-list=") }
 SKIP_REPOS = if skip_list_argument
@@ -25,6 +29,12 @@ repos = Dir.glob(File.join(WORKSPACE, "*-skill")).select do |repo|
   remote, ok = git(repo, "remote", "get-url", "origin")
   ok && remote.match?(%r{github\.com[:/]nuwa-skills/})
 end.sort
+
+if repos.empty?
+  warn "ERROR\t#{WORKSPACE} 下没有找到 nuwa-skills 的 *-skill 仓库"
+  warn "提示：把各 Skill 仓库克隆到该目录，或使用 --workspace=/path/to/parent"
+  exit 1
+end
 
 errors = []
 warnings = []

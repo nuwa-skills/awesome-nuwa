@@ -33,7 +33,7 @@ ruby scripts/modernize-skills.rb          # 仅预览
 ruby scripts/modernize-skills.rb --write  # 应用低风险规范升级
 ```
 
-更新脚本会自动跳过存在未提交 `SKILL.md` 修改的仓库。
+仓库不在同一父目录时，用 `--workspace=/path/to/parent` 指定父目录。更新脚本会自动跳过存在未提交 `SKILL.md` 修改的仓库。
 
 ---
 
