@@ -39,7 +39,7 @@ ruby scripts/modernize-skills.rb --write  # 应用低风险规范升级
 
 ## 目录
 
-> 共 **159** 位人物，分布在 **18** 个领域。
+> 共 **159** 个原创 Skill（nuwa-skills）+ **6** 个社区 Skill（alchaincyf），分布在 **18** 个领域。分类计数只统计原创 Skill，标有「社区」的条目来自社区仓库。
 
 - [中国哲学家](#中国哲学家) `14`
 - [西方哲学家](#西方哲学家) `15`
@@ -180,7 +180,7 @@ ruby scripts/modernize-skills.rb --write  # 应用低风险规范升级
 | [约翰·博格](https://github.com/nuwa-skills/bogle-skill) | 指数基金/低成本/长期持有 | `npx skills add nuwa-skills/bogle-skill` |
 | [彼得·蒂尔](https://github.com/nuwa-skills/thiel-skill) | 从0到1/垄断/逆向思考 | `npx skills add nuwa-skills/thiel-skill` |
 | [本杰明·格雷厄姆](https://github.com/nuwa-skills/grahamben-skill) | 价值投资之父/安全边际/市场先生 | `npx skills add nuwa-skills/grahamben-skill` |
-| [芒格](https://github.com/alchaincyf/munger-skill) | 投资/认知偏误/逆向思考 | `npx skills add alchaincyf/munger-skill` |
+| [芒格](https://github.com/alchaincyf/munger-skill) | 投资/认知偏误/逆向思考（社区） | `npx skills add alchaincyf/munger-skill` |
 
 ## 科技与创新
 
@@ -190,8 +190,8 @@ ruby scripts/modernize-skills.rb --write  # 应用低风险规范升级
 | [凯文·凯利](https://github.com/nuwa-skills/kevinkelly-skill) | 未来趋势/失控/必然 | `npx skills add nuwa-skills/kevinkelly-skill` |
 | [林纳斯·托瓦兹](https://github.com/nuwa-skills/torvalds-skill) | 开源/工程美学/务实 | `npx skills add nuwa-skills/torvalds-skill` |
 | [吴军](https://github.com/nuwa-skills/wujun-skill) | 文明之光/信息论思维/格局/见识 | `npx skills add nuwa-skills/wujun-skill` |
-| [乔布斯](https://github.com/alchaincyf/steve-jobs-skill) | 产品/设计/战略 | `npx skills add alchaincyf/steve-jobs-skill` |
-| [马斯克](https://github.com/alchaincyf/elon-musk-skill) | 工程/成本/第一性原理 | `npx skills add alchaincyf/elon-musk-skill` |
+| [乔布斯](https://github.com/alchaincyf/steve-jobs-skill) | 产品/设计/战略（社区） | `npx skills add alchaincyf/steve-jobs-skill` |
+| [马斯克](https://github.com/alchaincyf/elon-musk-skill) | 工程/成本/第一性原理（社区） | `npx skills add alchaincyf/elon-musk-skill` |
 | [山姆·奥特曼](https://github.com/nuwa-skills/altman-skill) | AI时代创业/指数思维/技术乐观主义 | `npx skills add nuwa-skills/altman-skill` |
 | [里德·霍夫曼](https://github.com/nuwa-skills/hoffman-skill) | 闪电式扩张/人脉网络/联盟思维 | `npx skills add nuwa-skills/hoffman-skill` |
 | [本·霍洛维茨](https://github.com/nuwa-skills/horowitz-skill) | 创业维艰/战时CEO/企业文化 | `npx skills add nuwa-skills/horowitz-skill` |
@@ -281,7 +281,7 @@ ruby scripts/modernize-skills.rb --write  # 应用低风险规范升级
 | [蒙特梭利](https://github.com/nuwa-skills/montessori-skill) | 儿童教育/自主学习/环境设计 | `npx skills add nuwa-skills/montessori-skill` |
 | [杜威](https://github.com/nuwa-skills/dewey-skill) | 实用主义教育/做中学/民主 | `npx skills add nuwa-skills/dewey-skill` |
 | [陶行知](https://github.com/nuwa-skills/taoxingzhi-skill) | 生活教育/教学做合一/乡村 | `npx skills add nuwa-skills/taoxingzhi-skill` |
-| [张雪峰](https://github.com/alchaincyf/zhangxuefeng-skill) | 教育/职业规划/阶层流动 | `npx skills add alchaincyf/zhangxuefeng-skill` |
+| [张雪峰](https://github.com/alchaincyf/zhangxuefeng-skill) | 教育/职业规划/阶层流动（社区） | `npx skills add alchaincyf/zhangxuefeng-skill` |
 
 ## 经济学家
 
@@ -313,8 +313,8 @@ ruby scripts/modernize-skills.rb --write  # 应用低风险规范升级
 | [蒂姆·费里斯](https://github.com/nuwa-skills/ferriss-skill) | 生活黑客/4小时/最优化 | `npx skills add nuwa-skills/ferriss-skill` |
 | [詹姆斯·克利尔](https://github.com/nuwa-skills/clear-skill) | 原子习惯/系统/复利 | `npx skills add nuwa-skills/clear-skill` |
 | [格拉德威尔](https://github.com/nuwa-skills/gladwell-skill) | 引爆点/异类/直觉 | `npx skills add nuwa-skills/gladwell-skill` |
-| [纳瓦尔](https://github.com/alchaincyf/naval-skill) | 财富/杠杆/人生哲学 | `npx skills add alchaincyf/naval-skill` |
-| [塔勒布](https://github.com/alchaincyf/taleb-skill) | 风险/反脆弱/不确定性 | `npx skills add alchaincyf/taleb-skill` |
+| [纳瓦尔](https://github.com/alchaincyf/naval-skill) | 财富/杠杆/人生哲学（社区） | `npx skills add alchaincyf/naval-skill` |
+| [塔勒布](https://github.com/alchaincyf/taleb-skill) | 风险/反脆弱/不确定性（社区） | `npx skills add alchaincyf/taleb-skill` |
 | [查理·罗斯](https://github.com/nuwa-skills/charlierose-skill) | 深度访谈/提问的艺术/倾听 | `npx skills add nuwa-skills/charlierose-skill` |
 
 ## 蒸馏你自己的 Skill
