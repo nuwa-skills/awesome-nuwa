@@ -80,6 +80,7 @@ ruby scripts/modernize-skills.rb --write  # 应用低风险规范升级
 | [诸葛亮](https://github.com/nuwa-skills/zhugeliang-skill) | 战略/谋略/治国 | `npx skills add nuwa-skills/zhugeliang-skill` |
 | [苏东坡](https://github.com/nuwa-skills/sudongpo-skill) | 豁达/文学/生活美学 | `npx skills add nuwa-skills/sudongpo-skill` |
 | [王夫之](https://github.com/nuwa-skills/wangfuzhi-skill) | 实学/经世致用/唯物 | `npx skills add nuwa-skills/wangfuzhi-skill` |
+| [CrakSEO/skills](https://github.com/CrakSEO/skills) | Connect Claude/Cursor/Codex to CrakSEO remote MCP servers for keyword research, SERP, backlinks, rank tracking, site audit, local SEO, AI visibility, Search Console and URL indexing | Claude Code, Cursor, Codex | MIT |
 
 ## 西方哲学家
 
